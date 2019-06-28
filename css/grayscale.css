@@ -260,7 +260,7 @@
 }
 
 .social a {
-    font-size: 160%;
+    font-size: 180%;
     padding: 10px;
     text-align: center;
     transform: 1s;
@@ -271,12 +271,9 @@
   color: #e55dbe;
 }
 
-.social a:active {
-  color: #fff;
-}
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Crimson Text';
   letter-spacing: 0.0625em;
 }
 
@@ -289,6 +286,14 @@ a:focus, a:hover {
   color: #e55dbe;
 }
 
+.recordcover {
+  filter: grayscale(100%);
+}
+
+
+.recordcover:hover {
+  filter: none;
+}
 
 .bg-black {
   background-color: #161616 !important;
